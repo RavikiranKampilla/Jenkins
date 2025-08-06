@@ -5,7 +5,7 @@ pipeline {
         stage('Build Backend') {
             steps {
                 echo '🔧 Building backend...'
-                bat 'type backend\\bc.js'
+                bat 'type backend\\bc.py'
             }
         }
 
